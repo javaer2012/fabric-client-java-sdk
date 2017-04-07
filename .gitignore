@@ -1,0 +1,10 @@
+target
+*.swp
+*.swo
+*.class
+.idea/
+*.iml
+.settings
+.classpath
+.project
+dockerlogfile.log
