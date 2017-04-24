@@ -25,7 +25,7 @@ docker tag  hyperledger/fabric-javaenv:x86_64-1.0.0-alpha  hyperledger/fabric-ja
 ## 二。 拉取fabric  client java sdk 项目
 
 ```
-cd /Users/roamer/Documents/Projects/Hyperledger/roamer/client-java-sdk
+cd /Users/roamer/Documents/Projects/Hyperledger/roamer
 git clone https://github.com/roamerxv/fabric-client-java-sdk.git
 ```
 
@@ -40,6 +40,7 @@ docker rmi -f dev-peer0-example_cc_go-11 dev-peer1-example_cc_go-11 dev-peer2-ex
 ## 四。设置环境变量
 
 ```
+cd /Users/roamer/Documents/Projects/Hyperledger/roamer/fabric-client-java-sdk
 export WD=$PWD
 ```
 
