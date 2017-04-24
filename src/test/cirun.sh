@@ -10,7 +10,8 @@ unset ORG_HYPERLEDGER_FABRIC_SDKTEST_INTEGRATIONTESTS_CA_TLS
 
 cd $WD/src/test/fixture/sdkintegration
 rm -rf /tmp/keyValStore*; rm -rf  /tmp/kvs-hfc-e2e ~/test.properties; rm -rf /var/hyperledger/*
-docker-compose -f docker-compose-couchdb.yaml up >dockerlogfile.log 2>&1 &
+#docker-compose -f docker-compose-couchdb.yaml up >dockerlogfile.log 2>&1 &
+docker-compose -f docker-compose.yaml up >dockerlogfile.log 2>&1 &
 cd $WD
 sleep 30
 docker ps -a
